@@ -1,4 +1,4 @@
-<h1>robt403 lab 3 </h1>
+<h1>ROBT403 lab 3 </h1>
 <h3>Task 1 </h3>
 The aim of this task was to create a rosnode that will take “std_msgs/Float64” values and publish them to a particular joint of the planar robot. The node should send the command to the joint only if the previous value is lower than the new value.  
 1) We have connected a planar joint and PC, by creating a workspace with packages of the planar joint and connected the robot to the source supply at 12 V. 
