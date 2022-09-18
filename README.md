@@ -14,7 +14,9 @@ https://drive.google.com/file/d/1xsdBsy-vcHS4XzQWCHfUyQKTtoY7fc1R/view?usp=shari
 In the task we were assigned to do the step response of the base joint (a) and end-effector joint (b). To solve this problem we used rqt and sent signals to the joints one by one. Also, on the graph we showed the desired position and current position of the joint. After sending the signal to move to some point, we stopped the autoscroll and focused on the graph. The results of the experiment are presented:
 
 ![task2_end](https://user-images.githubusercontent.com/112862577/190898389-7e91fff6-5d8a-4666-91c8-53c1aed9ef45.jpg)
+Figure 1. (a) Base joint response
 ![task2_base](https://user-images.githubusercontent.com/112862577/190898391-2d702368-6f21-47c6-9e4d-ec3fc0b98c93.jpg)
+Figure2. (b) End-effector joint response
 
 https://drive.google.com/file/d/1vOXCRlm0DqAsgeFdgSkcB2LvGibDfFTU/view?usp=sharing
 
@@ -27,8 +29,10 @@ we track two topics of the base joint such as /motortom2m/state/current_pos and
 /motortom2m/state/goal_pos. Output from the MatPlot window is shown below. As you can see, we have a good sinusoidal response.
 2. For the control of the last joint, rqt published values of sin(i) (std_msgs/Float64) to the relevant topic called /end/command with the same rate as above. MatPlot tracked two topics to observe state /end/state/current_pos  and /end/state/goal_pos. Results shown below indicate that motors had a proper sinusoidal response.
 
-![task3_end](https://user-images.githubusercontent.com/112862577/190898433-a522e340-f43a-400a-8932-b42971128d79.jpg)
 ![task3_base](https://user-images.githubusercontent.com/112862577/190898443-77da5617-9b22-4b36-be5a-49803aec459b.jpg)
+Figure 3. Base joint's response
+![task3_end](https://user-images.githubusercontent.com/112862577/190898433-a522e340-f43a-400a-8932-b42971128d79.jpg)
+Figure 4. End-effector joint's response
 
 https://drive.google.com/file/d/1SmolIBzZkZ7uaS9IRR5pQ_KSTtKQmOJ9/view?usp=sharing
 
