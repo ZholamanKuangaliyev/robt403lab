@@ -8,6 +8,8 @@ The following video describes the code and shows the performance of the planar j
 
 https://drive.google.com/file/d/1xsdBsy-vcHS4XzQWCHfUyQKTtoY7fc1R/view?usp=sharing
 
+***
+
 <h3>Task 2 </h3>
 In the task we were assigned to do the step response of the base joint (a) and end-effector joint (b). To solve this problem we used rqt and sent signals to the joints one by one. Also, on the graph we showed the desired position and current position of the joint. After sending the signal to move to some point, we stopped the autoscroll and focused on the graph. The results of the experiment are presented:
 
@@ -15,6 +17,8 @@ In the task we were assigned to do the step response of the base joint (a) and e
 ![task2_base](https://user-images.githubusercontent.com/112862577/190898391-2d702368-6f21-47c6-9e4d-ec3fc0b98c93.jpg)
 
 https://drive.google.com/file/d/1vOXCRlm0DqAsgeFdgSkcB2LvGibDfFTU/view?usp=sharing
+
+***
 
 <h3>Task 3 </h3>
 Through rqt we then proceeded with sending to topics values of a sine-wave function and getting appropriate response from the desired joints.
@@ -27,6 +31,8 @@ we track two topics of the base joint such as /motortom2m/state/current_pos and
 ![task3_base](https://user-images.githubusercontent.com/112862577/190898443-77da5617-9b22-4b36-be5a-49803aec459b.jpg)
 
 https://drive.google.com/file/d/1SmolIBzZkZ7uaS9IRR5pQ_KSTtKQmOJ9/view?usp=sharing
+
+***
 
 P.S. We could not upload the video due to the large size of the file, so we uploaded the links to our google folder.
 
