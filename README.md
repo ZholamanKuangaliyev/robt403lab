@@ -16,7 +16,7 @@ In the task we were assigned to do the step response of the base joint (a) and e
 ![task2_end](https://user-images.githubusercontent.com/112862577/190898389-7e91fff6-5d8a-4666-91c8-53c1aed9ef45.jpg)
 Figure 1. (a) Base joint response
 ![task2_base](https://user-images.githubusercontent.com/112862577/190898391-2d702368-6f21-47c6-9e4d-ec3fc0b98c93.jpg)
-Figure2. (b) End-effector joint response
+Figure 2. (b) End-effector joint response
 
 https://drive.google.com/file/d/1vOXCRlm0DqAsgeFdgSkcB2LvGibDfFTU/view?usp=sharing
 
